@@ -1,0 +1,6 @@
+PATCH http://localhost:8000/authors/51
+Content-Type: application/json
+
+{
+    "country": "Italy"
+}

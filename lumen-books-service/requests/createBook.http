@@ -1,0 +1,9 @@
+POST http://localhost:8001/books
+Content-Type: application/json
+
+{
+    "title":       "Kamasutra",
+    "description": "This is my favourite book",
+    "price":       8.99,
+    "author_id":   51
+}

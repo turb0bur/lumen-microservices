@@ -1,0 +1,9 @@
+POST http://localhost:8002/books
+Content-Type: application/json
+
+{
+    "title":       "Sex & City",
+    "description": "Just a novel soap opera",
+    "price":       13.14,
+    "author_id":   14
+}

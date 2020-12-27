@@ -1,0 +1,8 @@
+POST http://localhost:8002/authors
+Content-Type: application/json
+
+{
+    "name":    "Daisy",
+    "gender":  "female",
+    "country": "Ukraine"
+}

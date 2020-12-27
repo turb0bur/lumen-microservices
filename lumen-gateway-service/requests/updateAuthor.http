@@ -1,0 +1,6 @@
+PATCH http://localhost:8002/authors/51
+Content-Type: application/json
+
+{
+    "country": "France"
+}

@@ -1,0 +1,7 @@
+PATCH http://localhost:8002/books/451
+Content-Type: application/json
+
+{
+    "price":     3.49,
+    "author_id": 14
+}

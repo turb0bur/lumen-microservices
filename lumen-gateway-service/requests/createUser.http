@@ -1,0 +1,10 @@
+POST http://localhost:8002/users
+Content-Type: application/json
+Authorization: Bearer <TOKEN>
+
+{
+    "name":                  "Volodka",
+    "email":                 "butko1991@gmail.com",
+    "password":              "",
+    "password_confirmation": ""
+}

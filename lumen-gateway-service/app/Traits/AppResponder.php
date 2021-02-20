@@ -22,6 +22,19 @@ trait AppResponder
     }
 
     /**
+     * Build valid response
+     *
+     * @param string|array $data
+     * @param int          $code
+     * @return JsonResponse
+     */
+    public function validResponse($data, $code = Response::HTTP_OK): JsonResponse
+    {
+        return response()->json(['data' => $data], $code);
+    }
+
+
+    /**
      * Build error response
      *
      * @param string|array $message
